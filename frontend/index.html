@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIL Translator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>SIL Translator</h1>
+      <div class="input-section">
+        <textarea
+          id="js-code"
+          placeholder="Enter your JavaScript code here"
+        ></textarea>
+      </div>
+      <div class="buttons">
+        <button id="translate-btn">Translate</button>
+      </div>
+      <div class="output-section">
+        <h2>Generated SIL Code</h2>
+        <pre id="sil-code"></pre>
+        <h2>Generated Python Code</h2>
+        <pre id="python-code"></pre>
+        <h2>Generated C++ Code</h2>
+        <pre id="cpp-code"></pre>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
